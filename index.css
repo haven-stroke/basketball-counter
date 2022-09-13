@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    align-items: center;
+    box-sizing: border-box;
+}
+.title{
+    padding-top: 40px;
+    width: 100%;
+    background: #1B244A;
+    height: 100px;
+    font-family: 'Cursed Timer ULiL';
+    font-style:normal;
+    font-weight: 600px;
+    font-size: 60px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+    border-bottom: #F94F6D solid 2px;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    padding-bottom: 79px;
+
+}
+/* 
+.board {
+
+    box-sizing: border-box;
+    padding-bottom: 79px;
+    padding-left: 82px;
+    padding-right: 82px;
+    
+} */
+
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+
+
+.board-title-home{
+    margin-bottom: 21px;
+    width: 149px;
+    height: 36px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+
+}
+
+#home-brd {
+    box-sizing: border-box;
+    height: 120px;
+    width: 170px;
+    padding: 15px;
+    background: black;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    color: #F94F6D;
+    border-radius: 5px
+}
+
+button{
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-right: 11px;
+    margin-left: 3px;
+    margin-top: 30px ;
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    outline: none;
+    font-family: 'Cursed Timer ULiL';
+
+}
+
+
+
+
+.board-title-guest{
+    margin-bottom: 21px;
+    width: 149px;
+    height: 36px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+
+}
+
+#guest-brd {
+    box-sizing: border-box;
+    height: 120px;
+    width: 170px;
+    background: black;
+    padding: 15px;
+    font-size: 90px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Cursed Timer ULiL';
+    color: #F94F6D;
+    border-radius: 5px
+}
+
+.restart{
+    position: absolute;
+    top: 280px;
+    width: auto;
+    text-transform: uppercase
+}
