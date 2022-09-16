@@ -2,6 +2,7 @@ body {
     margin: 0;
     align-items: center;
     box-sizing: border-box;
+    background-color: aliceblue;
 }
 .title{
     padding-top: 40px;
@@ -54,8 +55,9 @@ body {
 #home-brd {
     box-sizing: border-box;
     height: 120px;
-    width: 170px;
+    width: 188px;
     padding-top: 15px;
+    padding-left: 10px;
     background: black;
     font-size: 90px;
     text-align: left;
@@ -101,9 +103,10 @@ button{
 #guest-brd {
     box-sizing: border-box;
     height: 120px;
-    width: 170px;
+    width: 190px;
     background: black;
     padding-top: 15px; 
+    padding-left: 10px;
     font-size: 90px;
     text-align: left;
     font-style: normal;
@@ -127,11 +130,10 @@ button{
 }
 
 #info{
-    min-height: auto;
-    height: 200px;
+    height: auto;
     width: 60%;
     max-width: 500px;
-    background-color:  bisque;
+    background-color:  rgb(255, 255, 255);
     margin: 45px;
     transform: skew(10deg,10deg);
     text-transform: uppercase;
@@ -145,4 +147,9 @@ button{
     text-shadow: 2px 2px 2px #d9ff04;
     border-top-left-radius: 40px;
     
+}
+
+span{
+    font-size: 10px;
+    background-color: black;
 }

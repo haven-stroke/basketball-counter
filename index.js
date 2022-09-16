@@ -37,14 +37,14 @@ function add3Point() {
     counter.textContent = 0
     gCounter.textContent = 0
     document.getElementById("info").style.display = "none";
-    document.getElementById("info").innerHTML += ""
+    document.getElementById("info").innerHTML = "THE GAME HAS FINALLY ENDED:"+"<br/>"
 };
 
 function save(){
 
- document.getElementById("info").style.display = "flex";
- document.getElementById("info").innerHTML += "<br/>..HOME="+point+ "...AWAY="+points;
- const para = document.createElement("#info");
+ let sheetStyle = document.getElementById("info").style.display = "flex";
+ let sheetScript = document.getElementById("info").innerHTML += "<br/>..HOME="+point+ "...AWAY="+points;
+ const para = document.createElement("div");
  para.innerText = abcdef
 
 }
