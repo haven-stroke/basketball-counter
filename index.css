@@ -127,7 +127,8 @@ button{
 }
 
 #info{
-    height: auto;
+    min-height: auto;
+    height: 200px;
     width: 60%;
     max-width: 500px;
     background-color:  bisque;
@@ -143,4 +144,5 @@ button{
     color: #F94F6D;
     text-shadow: 2px 2px 2px #d9ff04;
     border-top-left-radius: 40px;
+    
 }
