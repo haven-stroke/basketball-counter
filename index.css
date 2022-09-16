@@ -55,10 +55,10 @@ body {
     box-sizing: border-box;
     height: 120px;
     width: 170px;
-    padding: 15px;
+    padding-top: 15px;
     background: black;
     font-size: 90px;
-    text-align: center;
+    text-align: left;
     font-family: 'Cursed Timer ULiL';
     font-weight: 400;
     color: #F94F6D;
@@ -103,9 +103,9 @@ button{
     height: 120px;
     width: 170px;
     background: black;
-    padding: 15px;
+    padding-top: 15px; 
     font-size: 90px;
-    text-align: center;
+    text-align: left;
     font-style: normal;
     font-weight: 400;
     font-family: 'Cursed Timer ULiL';
@@ -118,4 +118,29 @@ button{
     top: 280px;
     width: auto;
     text-transform: uppercase
+}
+
+.save{
+    position: absolute;
+    width: auto;
+    top: 430px;
+}
+
+#info{
+    height: auto;
+    width: 60%;
+    max-width: 500px;
+    background-color:  bisque;
+    margin: 45px;
+    transform: skew(10deg,10deg);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    display: none;
+    margin-top: 100px;
+    box-shadow: 2px 4px 7px black;
+    color: #F94F6D;
+    text-shadow: 2px 2px 2px #d9ff04;
+    border-top-left-radius: 40px;
 }

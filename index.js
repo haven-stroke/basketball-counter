@@ -36,7 +36,19 @@ function add3Point() {
     points = 0
     counter.textContent = 0
     gCounter.textContent = 0
+    document.getElementById("info").style.display = "none";
+    document.getElementById("info").innerHTML += ""
 };
+
+function save(){
+
+ document.getElementById("info").style.display = "flex";
+ document.getElementById("info").innerHTML += "<br/>..HOME="+point+ "...AWAY="+points;
+ const para = document.createElement("#info");
+ para.innerText = abcdef
+
+}
+
 
 
 
